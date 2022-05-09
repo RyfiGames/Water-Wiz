@@ -1,0 +1,219 @@
+header {
+    width: 100vw;
+    min-height: 45vh;
+    max-height: 50vh;
+    /**
+    background: url("/img/suppback2.jpg");
+    background-size: cover;
+    background-position: center;
+    **/
+    background: url("/img/suppback2.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border-bottom: 2px solid black;
+}
+
+body {
+    background-color: #a1b1c0;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+/* #cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100px;
+    color: white;
+    font-size: 18px;
+} */
+
+header h1 {
+    font-size: calc(3.7vw + 4px);
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header>#descrip {
+    font-size: calc(1.5vw + 2px);
+    text-align: center;
+    margin: 40px;
+    margin-top: 10px;
+}
+
+#box-icons {
+    margin: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    /* height: calc(100vh - 495px); */
+    /*flex-direction: row;*/
+    /*background-color: aqua;*/
+    justify-content: center;
+    position: relative;
+    /* column-gap: 40px; */
+}
+
+#box-icons>.box {
+    margin: 10px;
+    flex: 1;
+    background-color: white;
+    min-width: 250px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+    color: black;
+    max-width: 300px;
+    height: 300px;
+    border: 1px solid #2e72a0;
+    position: relative;
+}
+
+.box>.supplier-container {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.box>div>img {
+    border-bottom: 1px solid #E5E9F0;
+}
+
+.supplier-info {
+    display: flex;
+    flex-flow: column;
+    row-gap: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    /*added only to display green bottom*/
+    padding-bottom: 10px;
+    background-color: #096118;
+    color: white;
+    flex: 1;
+    
+    /*hover effects*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: 0.75s ease height;
+    height: 0;
+    width: 100%;
+    /*justify-content: center;*/
+}
+
+.box:hover .supplier-info {
+    height: 100%;
+}
+
+.supplier-info>h3.supplier-name {
+    font-size: 1.5em;
+    margin: 50px 0 5px 0;
+    padding: 5px;
+}
+
+.supplier-info>.overlay-text>p {
+    margin: 15px 10px;
+}
+
+.supplier-info>.overlay-text>ul {
+    margin: 5px 0 10px 0;
+    list-style-type: none;
+}
+
+.box img {
+    width: 100%;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+#box-icons {
+    flex: 1;
+}
+
+/*Media Queries*/
+
+/*Tablets*/
+@media (max-width: 1100px) and (min-width: 600px) {
+    header h1 {
+        font-size: calc(7vw + 2px) !important;
+    }
+
+    #descrip p{
+        line-height: 2rem;
+    }
+
+    header>#descrip {
+        font-size: calc(2.2vw + 6px) !important
+    }
+
+    #box-icons>.box {
+        height: 575px;
+        max-width: 90%;
+        text-align: center;
+        margin-left: 5px;
+    }
+
+    .supplier-info {
+        position: relative;
+        padding-top: 0;
+        transition: none;
+        justify-content: center;
+    }
+
+    .supplier-info>h3.supplier-name {
+        margin: 15px 0 2px 0;
+    }
+
+    .overlay-text p, ul{
+        line-height: 1.3rem;
+    }
+}
+
+/*Phones*/
+@media (max-width: 500px) {
+    header h1 {
+        margin-top: 10px;
+        padding-top: 10px;
+        font-size: calc(9vw + 3px) !important;
+    }
+
+    #descrip p{
+        line-height: 1.4rem;
+    }
+
+    header>#descrip {
+        font-size: calc(2.5vw + 6px) !important
+    }
+
+    #box-icons>.box {
+        height: 575px;
+        max-width: 90%;
+        text-align: center;
+        margin-left: 5px;
+    }
+
+    .supplier-info {
+        position: relative;
+        padding-top: 0;
+        transition: none;
+        justify-content: center;
+    }
+
+    .supplier-info>h3.supplier-name {
+        margin: 15px 0 2px 0;
+    }
+
+    .overlay-text p, ul{
+        line-height: 1.3rem;
+    }
+}

@@ -1,0 +1,498 @@
+{
+    "suppliers": [
+        {
+            "id": "philadelphia-water",
+            "name": "Philadelphia Water Department",
+            "logo": "/img/pa-water-big.png",
+            "counties": [
+                {
+                    "id": "philadelphia-county",
+                    "name": "Philadelphia County",
+                    "systems": [
+                        {
+                            "name": "Baxter Water Treatment Plant",
+                            "waterStatus": "Good - Safe to drink",
+                            "description": "Northeast and parts of South Philadelphia",
+                            "waterSource": "Delaware River",
+                            "reportLink": "https://www.phila.gov/water/wu/Water%20Quality%20Reports/2019-Water-Quality-Report.pdf",
+                            "stats": [
+                                7.4,
+                                0.65,
+                                97,
+                                0.09,
+                                2.94,
+                                3,
+                                0.28,
+                                50,
+                                24,
+                                2.41
+                            ]
+                        },
+                        {
+                            "name": "Belmont Water Treatment Plant",
+                            "waterStatus": "Good - Safe to drink",
+                            "description": "Southwest Philadelphia",
+                            "waterSource": "Schuylkill River",
+                            "reportLink": "https://www.phila.gov/water/wu/Water%20Quality%20Reports/2019-Water-Quality-Report.pdf",
+                            "stats": [
+                                7.4,
+                                0.65,
+                                130,
+                                0.086,
+                                2.175,
+                                3,
+                                0.28,
+                                50,
+                                43,
+                                2.41
+                            ]
+                        },
+                        {
+                            "name": "Queen Lane Water Treatment Plant",
+                            "waterStatus": "Good - Safe to drink",
+                            "description": "Northwest and parts of South Philadelphia",
+                            "waterSource": "Schuylkill River",
+                            "reportLink": "https://www.phila.gov/water/wu/Water%20Quality%20Reports/2019-Water-Quality-Report.pdf",
+                            "stats": [
+                                7.4,
+                                0.65,
+                                151,
+                                0.07,
+                                2.195,
+                                3,
+                                0.28,
+                                50,
+                                37,
+                                2.41
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "american-water",
+            "name": "American Water",
+            "logo": "/img/amwater-big.png",
+            "counties": [
+                {
+                    "name": "Montgomery County",
+                    "systems": [
+                        {
+                            "name": "Norristown Water System",
+                            "waterStatus": "Good - Safe to drink",
+                            "description": "Boroughs of Norristown and Bridgeport, portions of West Norriton, East Norriton, Upper Merion, Plymouth, Lower Providence, Whitpain, Worcester, Whitemarsh and Perkiomen Townships",
+                            "waterSource": "Schuylkill River",
+                            "reportLink": "https://www.amwater.com/ccr/norristown.pdf?language_id=1",
+                            "stats": [
+                                5.69,
+                                0,
+                                121,
+                                0.2,
+                                2.07,
+                                0,
+                                0.322,
+                                34,
+                                23,
+                                1.7
+                            ]
+                        },
+                        {
+                            "name": "Royersford Water System",
+                            "waterStatus": "Good - Safe to drink",
+                            "description": "Royersford",
+                            "waterSource": "Schuylkill River",
+                            "reportLink": "https://www.amwater.com/ccr/homewater.pdf?language_id=1",
+                            "stats": [
+                                7.4,
+                                0.1,
+                                154,
+                                0.06,
+                                1.345,
+                                0.002,
+                                0.24,
+                                51,
+                                34.5,
+                                3.35
+                            ]
+                        }
+                    ],
+                    "id": "montgomery-county"
+                },
+                {
+                    "name": "Bucks County",
+                    "systems": [
+                        {
+                            "name": "Yardley Water System",
+                            "waterStatus": "Good - Safe to drink",
+                            "description": "Borough of Yardley and portions of Lower Makefield and Falls Townships",
+                            "waterSource": "Delaware River + Groundwells",
+                            "reportLink": "https://www.amwater.com/ccr/yardley.pdf?language_id=1",
+                            "stats": [
+                                7.85,
+                                0.1,
+                                77,
+                                0.13,
+                                1.45,
+                                0.002,
+                                0.09,
+                                56,
+                                30,
+                                4.6
+                            ]
+                        }
+                    ],
+                    "id": "bucks-county"
+                },
+                {
+                    "name": "Chester County",
+                    "systems": [
+                        {
+                            "name": "Coatesville Water System",
+                            "waterStatus": "Good - Safe to drink",
+                            "description": "Coatesville, Parkesburg, Atglen, Christiana, Quarryville, Downingtown, Thorndale, West Caln, Bart, Sadsbury, West Sadsbury, South Coatesville, East Fallowfield and Caln Townships",
+                            "waterSource": "Rock Run Reservoir, Brandywine Creek",
+                            "reportLink": "https://www.amwater.com/ccr/coatesville.pdf?language_id=1",
+                            "stats": [
+                                7.6,
+                                0.45,
+                                83,
+                                0.23,
+                                2.165,
+                                0.001,
+                                0.066,
+                                47.9,
+                                32,
+                                3.77
+                            ]
+                        },
+                        {
+                            "name": "Phoenixville Water System",
+                            "waterStatus": "Good - Safe to drink",
+                            "description": "Portion of Phoenixville Borough",
+                            "waterSource": "Schuylkill River",
+                            "reportLink": "https://www.amwater.com/ccr/phoenixville.pdf?language_id=1",
+                            "stats": [
+                                6.85,
+                                0.5,
+                                145,
+                                0.09,
+                                2.23,
+                                0.004,
+                                0.5,
+                                50,
+                                25,
+                                3
+                            ]
+                        }
+                    ],
+                    "id": "chester-county"
+                }
+            ]
+        },
+        {
+            "id": "audubon-water",
+            "name": "Audubon Water Company",
+            "logo": "/img/audubon-big.png",
+            "counties": [
+                {
+                    "name": "Montgomery County",
+                    "systems": [
+                        {
+                            "name": "Audubon Water System",
+                            "waterStatus": "Good - Safe to drink",
+                            "description": "Audubon",
+                            "waterSource": "Several ground wells throughout the area",
+                            "reportLink": "http://audubonwater.com/app/uploads/2020/06/2019-Audubon-Water-CCR.pdf",
+                            "stats": [
+                                -1,
+                                -1,
+                                -1,
+                                -1,
+                                1.31,
+                                0,
+                                0.08,
+                                14.3,
+                                -1,
+                                1.45
+                            ]
+                        },
+                        {
+                            "name": "Valley Forge Crossing Water System",
+                            "waterStatus": "Good - Safe to drink",
+                            "description": "Royersford",
+                            "waterSource": "Schuylkill River",
+                            "reportLink": "http://audubonwater.com/app/uploads/2020/06/2019-valley-forge-Crossing-CCR.pdf",
+                            "stats": [
+                                -1,
+                                -1,
+                                -1,
+                                -1,
+                                1.37,
+                                0,
+                                0.15,
+                                -1,
+                                -1,
+                                3.94
+                            ]
+                        }
+                    ],
+                    "id": "montgomery-county"
+                }
+            ]
+        },
+        {
+            "id": "aqua-america",
+            "name": "Aqua America",
+            "logo": "/img/aqua-big.png",
+            "counties": [
+                {
+                    "name": "Montgomery County",
+                    "systems": [
+                        {
+                            "name": "Perkiomen Woods Water System",
+                            "waterStatus": "Good - Safe to drink",
+                            "description": "Collegeville",
+                            "waterSource": "Groundwater Supply",
+                            "reportLink": "https://www.aquaamerica.com/WaterQualityReports/2019/PA/PA1460068.pdf",
+                            "stats": [
+                                -1,
+                                -1,
+                                -1,
+                                -1,
+                                1.7,
+                                1.7,
+                                1.4,
+                                10,
+                                -1,
+                                4.4
+                            ]
+                        },
+                        {
+                            "name": "Upper Providence Water System",
+                            "waterStatus": "Good - Safe to drink",
+                            "description": "Mont Clare, Upper Providence",
+                            "waterSource": "Schuylkill River",
+                            "reportLink": "https://www.aquaamerica.com/WaterQualityReports/2019/PA/PA1460015.pdf",
+                            "stats": [
+                                -1,
+                                0.5,
+                                -1,
+                                -1,
+                                1.4,
+                                0,
+                                0.23,
+                                54,
+                                -1,
+                                3
+                            ]
+                        },
+                        {
+                            "name": "Hatboro Water System",
+                            "waterStatus": "Good - Safe to drink",
+                            "description": "Horsham, Hatboro, Willow Grove",
+                            "waterSource": "Groundwater and Delaware River",
+                            "reportLink": "https://www.aquaamerica.com/WaterQualityReports/2019/PA/PA1460028.pdf",
+                            "stats": [
+                                -1,
+                                0,
+                                -1,
+                                -1,
+                                1.5,
+                                0,
+                                0.6,
+                                7,
+                                -1,
+                                3.2
+                            ]
+                        },
+                        {
+                            "name": "Centerpoint Water System",
+                            "waterStatus": "Good - Safe to drink",
+                            "description": "Center Point Farm, Lansdale, Worcester Township",
+                            "waterSource": "Wellwater",
+                            "reportLink": "https://www.aquaamerica.com/WaterQualityReports/2019/PA/PA1460092.pdf",
+                            "stats": [
+                                -1,
+                                -1,
+                                -1,
+                                -1,
+                                1.7,
+                                0,
+                                0.146,
+                                2.45,
+                                -1,
+                                1.5
+                            ]
+                        }
+                    ],
+                    "id": "montgomery-county"
+                },
+                {
+                    "name": "Bucks County",
+                    "systems": [
+                        {
+                            "name": "Doylestown Water System",
+                            "waterStatus": "Good - Safe to drink",
+                            "description": "Doylestown",
+                            "waterSource": "Groundwater Supply",
+                            "reportLink": "https://www.aquaamerica.com/WaterQualityReports/2019/PA/PA1090005.pdf",
+                            "stats": [
+                                -1,
+                                -1,
+                                -1,
+                                -1,
+                                1.5,
+                                3.8,
+                                0.7,
+                                -1,
+                                -1,
+                                2.3
+                            ]
+                        },
+                        {
+                            "name": "Ben Salem Water System",
+                            "waterStatus": "Good - Safe to drink",
+                            "description": "Ben Salem, Langhorne, Feasterville, Trevose, Croydon",
+                            "waterSource": "Delaware River and Neshaminy Creek",
+                            "reportLink": "https://www.aquaamerica.com/WaterQualityReports/2019/PA/PA1090078.pdf",
+                            "stats": [
+                                -1,
+                                -1,
+                                -1,
+                                -1,
+                                -1,
+                                1.7,
+                                0.07,
+                                32,
+                                -1,
+                                -1
+                            ]
+                        },
+                        {
+                            "name": "Peddler's View Water System",
+                            "waterStatus": "Good - Safe to drink",
+                            "description": "New Hope",
+                            "waterSource": "Groundwater Wells",
+                            "reportLink": "https://www.aquaamerica.com/WaterQualityReports/2019/PA/PA1090147.pdf",
+                            "stats": [
+                                -1,
+                                -1,
+                                -1,
+                                -1,
+                                1.4,
+                                0,
+                                0.08,
+                                12.7,
+                                -1,
+                                1.9
+                            ]
+                        },
+                        {
+                            "name": "Bristol Water System",
+                            "waterStatus": "Good - Safe to drink",
+                            "description": "Feasterville, Trevose, Bensalem, Bristol, Croydon, Levittown",
+                            "waterSource": "Delaware River and Wells",
+                            "reportLink": "https://www.aquaamerica.com/WaterQualityReports/2019/PA/PA1090001.pdf",
+                            "stats": [
+                                -1,
+                                -1,
+                                -1,
+                                -1,
+                                2.975,
+                                0,
+                                0.156,
+                                28,
+                                -1,
+                                4
+                            ]
+                        }
+                    ],
+                    "id": "bucks-county"
+                },
+                {
+                    "name": "Chester County",
+                    "systems": [
+                        {
+                            "name": "Honeybrook Water System",
+                            "waterStatus": "Good - Safe to drink",
+                            "description": "Honeybrook",
+                            "waterSource": "Groundwater Supply, Brandywine Creek, and Marsh Creek Reservoir)",
+                            "reportLink": "https://www.aquaamerica.com/WaterQualityReports/2019/PA/PA1150195.pdf",
+                            "stats": [
+                                -1,
+                                -1,
+                                -1,
+                                -1,
+                                1.6,
+                                0,
+                                0.57,
+                                9,
+                                -1,
+                                5.2
+                            ]
+                        },
+                        {
+                            "name": "East Pikeland Water System",
+                            "waterStatus": "Good - Safe to drink",
+                            "description": "Phoenixville",
+                            "waterSource": "Schuylkill River",
+                            "reportLink": "https://www.aquaamerica.com/WaterQualityReports/2019/PA/PA1150006.pdf",
+                            "stats": [
+                                -1,
+                                0.5,
+                                -1,
+                                -1,
+                                0.2,
+                                0,
+                                0.23,
+                                54,
+                                -1,
+                                3
+                            ]
+                        },
+                        {
+                            "name": "Franklin Water System",
+                            "waterStatus": "Good - Safe to drink",
+                            "description": "Lincoln University",
+                            "waterSource": "Groundwater",
+                            "reportLink": "https://www.aquaamerica.com/WaterQualityReports/2019/PA/PA1150126.pdf",
+                            "stats": [
+                                -1,
+                                -1,
+                                -1,
+                                -1,
+                                0.58,
+                                0,
+                                0.45,
+                                3,
+                                -1,
+                                -1
+                            ]
+                        },
+                        {
+                            "name": "Spring Run Water System",
+                            "waterStatus": "Good - Safe to drink",
+                            "description": "West Chester, Coatesville, Downingtown",
+                            "waterSource": "Groundwater, supplemented w/ Brandywine Creek",
+                            "reportLink": "https://www.aquaamerica.com/WaterQualityReports/2019/PA/PA1150089.pdf",
+                            "stats": [
+                                -1,
+                                0.2,
+                                -1,
+                                -1,
+                                1.3,
+                                0,
+                                0.56,
+                                36,
+                                -1,
+                                4.1
+                            ]
+                        }
+                    ],
+                    "id": "chester-county"
+                }
+            ]
+        }
+    ]
+}
